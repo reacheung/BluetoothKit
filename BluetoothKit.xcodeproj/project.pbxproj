@@ -13,6 +13,9 @@
 		83889974214A40FA00280449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83889973214A40FA00280449 /* Assets.xcassets */; };
 		83889977214A40FA00280449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83889975214A40FA00280449 /* LaunchScreen.storyboard */; };
 		8388997A214A40FA00280449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83889979214A40FA00280449 /* main.m */; };
+		83889988214A413800280449 /* RCCBPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 83889982214A413800280449 /* RCCBPeripheral.m */; };
+		83889989214A413800280449 /* RCCBCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 83889983214A413800280449 /* RCCBCentralManager.m */; };
+		8388998A214A413800280449 /* RCBluetoothKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 83889986214A413800280449 /* RCBluetoothKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		83889976214A40FA00280449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83889978214A40FA00280449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83889979214A40FA00280449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83889982214A413800280449 /* RCCBPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCBPeripheral.m; sourceTree = "<group>"; };
+		83889983214A413800280449 /* RCCBCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCBCentralManager.m; sourceTree = "<group>"; };
+		83889984214A413800280449 /* RCCBPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCBPeripheral.h; sourceTree = "<group>"; };
+		83889985214A413800280449 /* RCBluetoothKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCBluetoothKit.h; sourceTree = "<group>"; };
+		83889986214A413800280449 /* RCBluetoothKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCBluetoothKit.m; sourceTree = "<group>"; };
+		83889987214A413800280449 /* RCCBCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCBCentralManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,7 @@
 		8388995E214A40F900280449 = {
 			isa = PBXGroup;
 			children = (
+				83889981214A412700280449 /* RCBluetoothkit */,
 				83889969214A40F900280449 /* BluetoothKit */,
 				83889968214A40F900280449 /* Products */,
 			);
@@ -69,6 +79,19 @@
 				83889979214A40FA00280449 /* main.m */,
 			);
 			path = BluetoothKit;
+			sourceTree = "<group>";
+		};
+		83889981214A412700280449 /* RCBluetoothkit */ = {
+			isa = PBXGroup;
+			children = (
+				83889985214A413800280449 /* RCBluetoothKit.h */,
+				83889986214A413800280449 /* RCBluetoothKit.m */,
+				83889987214A413800280449 /* RCCBCentralManager.h */,
+				83889983214A413800280449 /* RCCBCentralManager.m */,
+				83889984214A413800280449 /* RCCBPeripheral.h */,
+				83889982214A413800280449 /* RCCBPeripheral.m */,
+			);
+			path = RCBluetoothkit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +166,10 @@
 			files = (
 				8388996F214A40FA00280449 /* ViewController.m in Sources */,
 				8388997A214A40FA00280449 /* main.m in Sources */,
+				8388998A214A413800280449 /* RCBluetoothKit.m in Sources */,
 				8388996C214A40F900280449 /* AppDelegate.m in Sources */,
+				83889989214A413800280449 /* RCCBCentralManager.m in Sources */,
+				83889988214A413800280449 /* RCCBPeripheral.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
